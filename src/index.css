@@ -1,0 +1,46 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+ 
+}
+
+@layer {
+  
+}
+
+body,html{
+  font-family: "Poppins", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.item_1 {
+ background: url("/src/assets/bg1.jpg") no-repeat;
+ object-fit: cover;
+ background-size: cover;
+}
+
+.item_2 {
+  background: url("/src/assets/bg2.jpg") no-repeat;
+  object-fit: cover;
+  background-size: cover;
+ }
+
+ .item_3 {
+  background: url("/src/assets/bg3.jpg") no-repeat;
+  object-fit: cover;
+  background-size: cover;
+ }
+
+ .item_4 {
+  background: url("/src/assets/bg4.jpg") no-repeat;
+  object-fit: cover;
+  background-size: cover;
+ }
